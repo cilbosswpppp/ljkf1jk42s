@@ -4,7 +4,7 @@ var express = require('express');
 var router = express.Router();
 const mongoose = require('mongoose');
 
-const dbUrl = 'mongodb+srv://ridosetia123:ridosetia123@cluster0.rzhtj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const dbUrl = 'mongodb+srv://Vinzdb:abc2072006993@cluster0.fxdb1.mongodb.net/Vinzdb?retryWrites=true&w=majority'
 
 function connectMongoDb() {
   mongoose.connect(dbUrl, {
