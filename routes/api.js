@@ -1261,7 +1261,7 @@ router.get('/simsimi', async (req, res, next) => {
     if (!apikey) return res.sendFile(__path + '/docs/403.html')
     if (apikey != `${keyapi}`) return res.sendFile(__path + '/docs/403.html')
 	if (!query) return res.sendFile(__path + '/docs/406.html')
-       fetch(encodeURI(`https://api.simsimi.net/v2/?text=${query}&lang=id&cf=true`))
+       fetch(encodeURI(`https://api.simsimi.net/v2/?text=${query}&lang=id&lc=true`))
         .then(response => response.json())
         .then(data => {
         var data = data;
@@ -1271,7 +1271,7 @@ router.get('/simsimi', async (req, res, next) => {
              	maintanied_by: `${creator}`,
              	result: {
              		query: `${query}`,
-             		answer: `${data.messages[0].response}`
+             		answer: `${data.success[0].response}`
              	},
              	note: `Jangan di spam ya om, siminya, kasihan ntar nangis :(`
              })
