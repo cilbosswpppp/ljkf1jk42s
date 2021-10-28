@@ -1,5 +1,5 @@
 {
-  "name": "kontol",
+  "name": "arnz-api",
   "version": "1.0.0",
   "description": "res api website",
   "main": "index.js",
@@ -28,6 +28,7 @@
     "express": "^4.17.1",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
     "mongodb": "^3.6.3",
     "monk": "^7.3.3",
     "morgan": "^1.10.0",
