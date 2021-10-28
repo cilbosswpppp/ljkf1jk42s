@@ -1271,7 +1271,7 @@ router.get('/simsimi', async (req, res, next) => {
              	maintanied_by: `${creator}`,
              	result: {
              		query: `${query}`,
-             		answer: `${data.success[0].response}`
+             		answer: `${data.success}`
              	},
              	note: `Jangan di spam ya om, siminya, kasihan ntar nangis :(`
              })
