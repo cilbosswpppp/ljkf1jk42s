@@ -927,7 +927,14 @@ router.get('/igstalk', async(req, res, reject) => {
 	.then(data => {
 		var result = data;
 		res.json({
-			result
+			id: result.id,
+			username: result.username,
+			fullname: result.fullName,
+			followers: result.followers,
+    			following: result.following,
+    			isPrivate: result.isPrivate,
+   			isVerified: result.isVerified,
+    			profilePicHD: result.profilePicHD
 		})
 		})
 		.catch(e => {
