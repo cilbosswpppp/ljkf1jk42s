@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'mongodb+srv://ridosetia123:ridosetia123@cluster0.rzhtj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+var url = 'mongodb+srv://Vinzdb:abc2072006993@cluster0.fxdb1.mongodb.net/Vinzdb?retryWrites=true&w=majority';
 try {
-if(url == 'mongodb+srv://ridosetia123:ridosetia123@cluster0.rzhtj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority') throw console.log(color('Configurasi database, var url belum diisi','red'));
+if(url == 'mongodb+srv://Vinzdb:abc2072006993@cluster0.fxdb1.mongodb.net/Vinzdb?retryWrites=true&w=majority') throw console.log(color('Configurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
